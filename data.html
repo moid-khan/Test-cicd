@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- bootstrap 4 cdn -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <!-- bootstrap 4 card code -->
+    <div class="card">
+        <div class="card-header">
+            <h4>Card title</h4>
+        </div>
+        <div class="card-body">
+            <h5 class="card-title">Special title treatment</h5>
+            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+    <!-- responsive images gallery  -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <img src="https://picsum.photos/200/300" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-4">
+                <img src="https://picsum.photos/200/300" class="img-fluid" alt="Responsive image">
+            </div>
+            <div class="col-md-4">
+                <img src="https://picsum.photos/200/300" class="img-fluid" alt="Responsive image">
+            </div>
+        </div>
+
+        <!-- link that returns random image -->
+        <a href="https://picsum.photos/200/300" class="btn btn-primary">Get random image</a>
+
+        <!-- link that returns random image of 400x400 -->
+        <a href="https://picsum.photos/400/400" class="btn btn-primary">Get random image of 400x400</a>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+<script>
+  function addDarkmodeWidget() {
+    new Darkmode().showWidget();
+  }const options = {
+  bottom: '64px', // default: '32px'
+  right: 'unset', // default: '32px'
+  left: '32px', // default: 'unset'
+  time: '0.5s', // default: '0.3s'
+  mixColor: '#fff', // default: '#fff'
+  backgroundColor: '#fff',  // default: '#fff'
+  buttonColorDark: '#eee',  // default: '#100f2c'
+  buttonColorLight: '#fff', // default: '#fff'
+  saveInCookies: false, // default: true,
+  label: '🌓', // default: ''
+  autoMatchOsTheme: true // default: true
+}
+
+const darkmode = new Darkmode(options);
+darkmode.showWidget();
+  window.addEventListener('load', addDarkmodeWidget);
+</script>
+
+    <script src="test.js"></script>
+    
+</body>
+</html>
